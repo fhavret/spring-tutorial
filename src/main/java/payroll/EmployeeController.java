@@ -21,10 +21,10 @@ import java.util.stream.Collectors;
 class EmployeeController {
 
   private final EmployeeRepository repository;
-
   private final EmployeeModelAssembler assembler;
 
   EmployeeController(EmployeeRepository repository, EmployeeModelAssembler assembler) {
+    
     this.repository = repository;
     this.assembler = assembler;
   }
